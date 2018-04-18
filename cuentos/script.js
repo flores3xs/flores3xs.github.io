@@ -16,7 +16,9 @@ $(document).ready(function(){
     $("#myBtn").click(function(){
         $("#myModal").modal("show");
     });
-        $("#myModal").on('hidden.bs.modal', function () {
-            alert('"Ya que lejos de mí vas a estar; guarda, niña, un gentil pensamiento; al que un día te quiso contar; un cuento." (Ruben Dario)');
-    });
+});
+
+$(document).ready(function(){
+    // Show the Modal on load
+    $("#myModal").modal("show");
 });
